@@ -5,27 +5,27 @@
 ## <span style="color:#ECBE5B;"><b>유저 생성
 - POST
 - v1/customers
-- <span style="color:#F4C095;">Payload 데이터
-    - email           : String
-    - password        : String
-    - mobile          : String
-    - name            : Object
-        - name.full       : String
+- ### <span style="color:#F4C095;">Payload 데이터
+        email           : String
+        password        : String
+        mobile          : String
+        name            : Object
+        - name.full     : String
 
 ## <span style="color:#ECBE5B;"><b>유저 업데이트
 - PUT
 - v1/customers/{customerId}
-### <span style="color:#F4C095;">Payload 데이터
-    email           : String
-    password        : String
-    mobile          : String
-    name            : Object
-    - name.full     : String
-    birthdate       : Date
-    gender          : String
-    country         : String ("KR")
-    language        : String ("ko")
-    currency        : String ("KRW")
+- ### <span style="color:#F4C095;">Payload 데이터
+        email           : String
+        password        : String
+        mobile          : String
+        name            : Object
+        - name.full     : String
+        birthdate       : Date
+        gender          : String
+        country         : String ("KR")
+        language        : String ("ko")
+        currency        : String ("KRW")
 
 ## <span style="color:#ECBE5B;"><b>유저 인증
 - POST
