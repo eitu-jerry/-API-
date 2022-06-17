@@ -12,7 +12,7 @@
     - name            : Object
         - name.full       : String
 
-## <span style="color:#ECBE5B;"><b>유저 업데이트
++ ## <span style="color:#ECBE5B;"><b>유저 업데이트
 - PUT
 - v1/customers/{customerId}
 - <span style="color:#F4C095;">Payload 데이터</span>
