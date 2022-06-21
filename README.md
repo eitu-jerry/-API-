@@ -135,6 +135,14 @@
         order           : Object
         - order._id     : String (결제 시 필요하므로 따로 저장)
 
+## <span style="color:#ECBE5B;"><b>주문 내역 조회
+- GET
+- /v1/orders
+- ### <span style="color:#8FB9AA;">Query 데이터
+        customer         : String (고객 id)
+        createdAt>       : Date (주문 생성 날짜)
+        
+
 ## <span style="color:#ECBE5B;"><b>상품 리뷰 조회
 - GET
 - /v1/products/reviews/published
