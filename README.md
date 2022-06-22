@@ -75,6 +75,11 @@
 - ### <span style="color:#8FB9AA;">Query 데이터
         search:name     : String (값 없을땐 null)
         search:keywords : String (값 없을땐 null)
+        
+## <span style="color:#ECBE5B;"><b>상품 단일 개체 호출
+- GET
+- v1/products/{productId}
+- productId : String (호출할 상품 id)
 
 ## <span style="color:#ECBE5B;"><b>상품 카트에 담기
 - POST
