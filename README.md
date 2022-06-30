@@ -177,7 +177,7 @@
 - ### <span style="color:#F4C095;">Payload 데이터
         model           : Form data (리뷰 이미지 올릴 시 Review로 지정)
         application     : Form data (리뷰 이미지 올릴 시 images로 지정)
-        customer        : Form data file (리뷰 이미지 파일 리스트, content-type image/jpeg 고정)
+        customer        : Form data file (리뷰 이미지 파일, content-type image/jpeg 고정)
 
 ## <span style="color:#ECBE5B;"><b>아임포트 결제
 - 아이폰은 강청녕 대표님께 인수인계 받을 것
