@@ -170,6 +170,7 @@
         published       : Boolean (샘플로드 리뷰의 경우 검수 후 노출이 필수, false 고정)
         
 ## <span style="color:#ECBE5B;"><b>이미지 업로드
+- https://www.notion.so/83f3f024c1884e219abf7ace06c79f9d
 - POST
 - /v1/images
 - Content-Type: multipart/form-data
