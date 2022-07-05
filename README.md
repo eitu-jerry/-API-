@@ -150,6 +150,17 @@
         customer         : String (고객 id)
         createdAt>       : Date (주문 생성 날짜)
         
+## <span style="color:#ECBE5B;"><b>주문 취소
+- POST
+- /v1/orders/{orderId}/cancellation
+- ### <span style="color:#F4C095;">Payload 데이터
+        by               : String (결제 실패시 store, 고객 취소시 customer)
+        reason           : String (주문 취소 사유)
+        
+## <span style="color:#ECBE5B;"><b>주문 내역 삭제
+- DELETE
+- /v1/orders/{orderId}
+- 고객이 결제 도중 결제 취소 시 주문 내역 삭제       
 
 ## <span style="color:#ECBE5B;"><b>상품 리뷰 조회
 - GET
