@@ -145,6 +145,7 @@
 ## <span style="color:#ECBE5B;"><b>주문 내역 조회
 - GET
 - /v1/orders
+- status != placed 인 내역만 표시 (status.equals("placed") == 결제 대기 == 결제 실패)
 - ### <span style="color:#8FB9AA;">Query 데이터
         customer         : String (고객 id)
         createdAt>       : Date (주문 생성 날짜)
