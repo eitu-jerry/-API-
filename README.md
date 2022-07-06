@@ -162,6 +162,16 @@
 - /v1/orders/{orderId}
 - 고객이 결제 도중 결제 취소 시 주문 내역 삭제       
 
+## <span style="color:#ECBE5B;"><b>환불 신청
+- POST
+- /v1/orders/{orderId}/refunds
+- ### <span style="color:#F4C095;">Payload 데이터
+        reason                  : String (주문 취소 사유)
+        items                   : List of Object
+                items.item      : String (환불할 항목의 id)
+                items.quantity  : Number (환불할 항목의 개수)
+        shipments               : List of String (환불할 배송비 리스트)
+
 ## <span style="color:#ECBE5B;"><b>상품 리뷰 조회
 - GET
 - /v1/products/reviews/published
