@@ -77,7 +77,7 @@
 - ### <span style="color:#8FB9AA;">Query 데이터
         search:name     : String (값 없을땐 null)
         search:keywords : String (값 없을땐 null)
-        sort            : String (-totalReview)
+        sort            : String (랭킹 페이지에서 호출시 필요, -totalReview)
         
 ## <span style="color:#ECBE5B;"><b>상품 단일 개체 호출
 - GET
