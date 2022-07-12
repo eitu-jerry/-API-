@@ -77,6 +77,7 @@
 - ### <span style="color:#8FB9AA;">Query 데이터
         search:name     : String (값 없을땐 null)
         search:keywords : String (값 없을땐 null)
+        sort            : String (-totalReview)
         
 ## <span style="color:#ECBE5B;"><b>상품 단일 개체 호출
 - GET
@@ -205,6 +206,23 @@
 - 아이폰은 강청녕 대표님께 인수인계 받을 것
 
 # nCloud API 정리
+
+## <span style="color:#ECBE5B;"><b>제품 상세 페이지 웹뷰
+- http://110.165.17.124/sampleroad/sampleroad_chart.html
+- ### 필요 파라미터
+        Params0 ~ Params4 : Int (추후 이름은 변경될 수 있음)
+        
+## <span style="color:#ECBE5B;"><b>제품 상세 페이지 찜하기
+- http://110.165.17.124/sampleroad/sr_product_pick.php
+- ### 필요 파라미터
+        change          : Any (제품 찜 여부를 변경할때만 파라미터 넘기기, 단순 조회일때는 안넘김)
+        customer_id     : String
+        product_id      : String
+- ### Response
+        error           : String
+        - "0"           : (change != null ? 찜 변경 실패 : 찜 목록에 없음)
+        - "1"           : (change != null ? 찜 목록에 추가 : 찜 목록에 있음)
+        - "2"           : (찜 목록에서 삭제)
 
 ## <span style="color:#ECBE5B;"><b>이벤트 리스트 조회
 - http://110.165.17.124/sampleroad/sr_event_select.php
