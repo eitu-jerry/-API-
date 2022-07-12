@@ -213,7 +213,7 @@
         Params0 ~ Params4 : Int (추후 이름은 변경될 수 있음)
         
 ## <span style="color:#ECBE5B;"><b>제품 상세 페이지 찜하기
-- http://110.165.17.124/sampleroad/sr_product_pick.php
+- http://110.165.17.124/sampleroad/db/sr_product_pick.php
 - ### 필요 파라미터
         change          : Any (제품 찜 여부를 변경할때만 파라미터 넘기기, 단순 조회일때는 안넘김)
         customer_id     : String
@@ -225,10 +225,10 @@
         - "2"           : (찜 목록에서 삭제)
 
 ## <span style="color:#ECBE5B;"><b>이벤트 리스트 조회
-- http://110.165.17.124/sampleroad/sr_event_select.php
+- http://110.165.17.124/sampleroad/db/sr_event_select.php
 
 ## <span style="color:#ECBE5B;"><b>이벤트 참여
-- http://110.165.17.124/sampleroad/sr_event_insert.php
+- http://110.165.17.124/sampleroad/db/sr_event_insert.php
 - ### 필요 파라미터
         customer_id     : String
         event_id        : String
