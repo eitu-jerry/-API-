@@ -71,6 +71,15 @@
 - ### <span style="color:#FFA69E;">Response 데이터
         verified        : Boolean
 
+## <span style="color:#ECBE5B;"><b>비밀번호 변경
+- PUT
+- v1/customers/{customerId}/password
+- ### <span style="color:#F4C095;">Payload 데이터
+        secret          : String (인증 메일을 통해 넘어온 secret)
+        password        : String (변경할 비밀번호)
+- ### <span style="color:#FFA69E;">Response 데이터
+        reset           : Boolean
+
 ## <span style="color:#ECBE5B;"><b>상품 목록 호출
 - GET
 - v1/products
