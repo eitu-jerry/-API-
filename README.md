@@ -58,7 +58,7 @@
 - ### <span style="color:#F4C095;">Payload 데이터
         userId          : String (userId 혹은 email 만 필수)
         email           : String
-        expire          : Number (600 -> 10)
+        expiresIn          : Number (600 -> 10)
         scope           : String (verification 혹은 reset-password)
 - 반환값 없이 인증 링크가 포함된 메일이 발송됨
 - secret 키 저장 필요
