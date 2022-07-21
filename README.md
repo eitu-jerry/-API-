@@ -122,7 +122,7 @@
 - POST
 - /v1/customers/{customerId}/cart/checkout/{type}
 - type : order 혹은 subscription(정기구독)
-- 샘플 주문 태그 : UHAWQN6P3Y8V
+- 샘플 주문 태그 : P36U3UZB6Z9S
 - ### <span style="color:#F4C095;">Payload 데이터
         items                                 : List of CartItem (장바구니 중 일부만 주문할 때 필요)
         currency                              : String ("KRW")
