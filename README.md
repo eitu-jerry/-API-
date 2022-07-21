@@ -264,3 +264,20 @@
         - "0"           : 알 수 없는 이유로 insert 실패 
         - "1"           : 성공
         - "2"           : 이미 유저가 닫은 알람
+
+
+## <span style="color:#ECBE5B;"><b>설문조사 결과 입력
+- http://110.165.17.124/sampleroad/db/survey.php
+- 설문조사 웹뷰에서 redirectUrl 하이잭 후 파라미터 뽑는 과정 필요
+- ### 필요 파라미터
+        customer_id     : String
+        param01         : String (redirectUrl Param)
+        param02         : String (redirectUrl Param)
+        param03         : String (redirectUrl Param)
+        param04         : String (redirectUrl Param)
+        param05         : String (redirectUrl Param)
+        param06         : String (redirectUrl Param)
+- ### Response
+        error           : String
+        - "0"           : 알 수 없는 이유로 insert 실패 
+        - "1"           : 성공
