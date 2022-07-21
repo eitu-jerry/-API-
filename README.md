@@ -247,3 +247,20 @@
         - "1"           : 성공
         - "2"           : 이미 지원한 이벤트인 경우
         - "3"           : 이벤트 정원이 초과된 경우
+
+## <span style="color:#ECBE5B;"><b>알람 조회
+- http://110.165.17.124/sampleroad/db/sr_alarm_select.php
+- ### 필요 파라미터
+        customer_id     : String
+        
+
+## <span style="color:#ECBE5B;"><b>알람 닫기
+- http://110.165.17.124/sampleroad/db/sr_alarm_checked_insert.php
+- ### 필요 파라미터
+        customer_id     : String
+        alarm_id        : String
+- ### Response
+        error           : String
+        - "0"           : 알 수 없는 이유로 insert 실패 
+        - "1"           : 성공
+        - "2"           : 이미 유저가 닫은 알람
