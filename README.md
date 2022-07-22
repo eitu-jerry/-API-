@@ -73,9 +73,7 @@
         
 ## <span style="color:#ECBE5B;"><b>유저 정보 조회
 - GET
-- v1/me
-- ### <span style="color:#F4C095;">헤더 
-        Authorization-Customer          : token
+- v1/customers/{customerId}
 
 ## <span style="color:#ECBE5B;"><b>비밀번호 변경
 - PUT
