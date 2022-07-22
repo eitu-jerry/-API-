@@ -285,3 +285,8 @@
         error           : String
         - "0"           : 알 수 없는 이유로 insert 실패 
         - "1"           : 성공
+        
+## <span style="color:#ECBE5B;"><b>설문조사 여부 확인
+- http://110.165.17.124/sampleroad/db/sr_survey_check.php
+- ### 필요 파라미터
+        customer_id     : String
