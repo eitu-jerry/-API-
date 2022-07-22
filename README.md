@@ -70,6 +70,11 @@
         secret          : String (인증 메일을 통해 넘어온 secret)
 - ### <span style="color:#FFA69E;">Response 데이터
         verified        : Boolean
+        
+## <span style="color:#ECBE5B;"><b>유저 정보 조회
+- GET
+- v1/me
+- Header 추가 "Authorization-Customer: $token"
 
 ## <span style="color:#ECBE5B;"><b>비밀번호 변경
 - PUT
